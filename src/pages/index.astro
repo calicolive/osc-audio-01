@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Nav } from '../components/Nav.jsx';
+import { Footer } from '../components/Footer.jsx';
+import { Hero } from '../components/Hero.jsx';
+import { Carousel } from '../components/Carousel';
+---
+
+<Layout title='Welcome to OSC audio'>
+  <main>
+    <Nav client:load />
+    <Hero />
+    <Carousel />
+    <Footer />
+  </main>
+</Layout>
