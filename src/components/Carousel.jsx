@@ -9,7 +9,7 @@ export const Carousel = () => {
           <span className='indicator-item badge badge-secondary'>FREE</span>
           <div className='card w-96  bg-base-100 shadow-xl '>
             <figure>
-              <img src='../../public/images/SA2.png' alt='SA' />
+              <img src='/images/SA2.png' alt='SA' />
             </figure>
             <div className='card-body'>
               <h2 className='card-title'>luapselREVGUITAR</h2>
@@ -24,7 +24,7 @@ export const Carousel = () => {
           <span className='indicator-item badge badge-secondary'>50% off!</span>
           <div className='card w-96 bg-base-100 shadow-xl '>
             <figure>
-              <img src='../../public/images/sa3.png' alt='Shoes' />
+              <img src='/images/sa3.png' alt='Shoes' />
             </figure>
             <div className='card-body'>
               <h2 className='card-title'>Oscilloscope</h2>
@@ -39,7 +39,7 @@ export const Carousel = () => {
           <span className='indicator-item badge badge-secondary'>FREE</span>
           <div className='card  w-96 bg-base-100 shadow-xl'>
             <figure>
-              <img src='../../public/images/SA.png' alt='Shoes' />
+              <img src='/images/SA.png' alt='Shoes' />
             </figure>
             <div className='card-body'>
               <h2 className='card-title'>healingBOWL</h2>
